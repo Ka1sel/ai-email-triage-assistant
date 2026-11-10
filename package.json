@@ -1,0 +1,11 @@
+{
+  "name": "ai-email-triage-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sanitized n8n email triage workflow, setup documentation and synthetic regression tests.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Synthetic manual-test messages. This file is not an n8n workflow export or execution evidence.",
+  "samples": [
+    {
+      "id": "newsletter",
+      "from": "Updates <newsletter@example.com>",
+      "subject": "Your weekly product roundup",
+      "body": "Here is this week's product news, articles, and community updates. This is an automated newsletter. No response is needed.",
+      "expected": { "route": "No Reply", "status": "Skipped", "label": "AI/No Reply", "draftCreated": false }
+    },
+    {
+      "id": "billing",
+      "from": "Sarah <sarah@example.com>",
+      "subject": "I was charged twice for my subscription",
+      "body": "Hi, I noticed two charges for the same subscription this month. Could you investigate and help arrange a refund for the duplicate payment?",
+      "expected": { "route": "Manual Review", "status": "Pending", "label": "AI/Needs Review", "draftCreated": false }
+    },
+    {
+      "id": "inquiry",
+      "from": "Alex <alex@example.com>",
+      "subject": "Can you help automate our email workflow?",
+      "body": "Hello, we are looking for help sorting customer inquiries and preparing draft replies. Could you share how you would approach this and what details you would need from us?",
+      "expected": { "route": "Generate Draft", "status": "Success", "label": "AI/Drafted", "draftCreated": true, "automaticallySent": false }
+    }
+  ]
+}

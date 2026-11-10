@@ -1,0 +1,8 @@
+test,expected,actual,result,executed_at,n8n_version,evidence_reference
+Newsletter,Labeled and logged as skipped,,NOT RUN,,,
+Billing dispute,Flagged for human review with pending record,,NOT RUN,,,
+Routine service inquiry,Reply draft created and logged without sending,,NOT RUN,,,
+Previously processed email,Stopped by the duplicate check,,NOT RUN,,,
+Resolved review request,Matching existing sheet record updated,,NOT RUN,,,
+Repeated resolution check,Existing resolution timestamp preserved,,NOT RUN,,,
+Scheduled execution,Resolution branch ran automatically,,NOT RUN,,,

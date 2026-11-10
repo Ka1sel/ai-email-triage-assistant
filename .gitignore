@@ -1,0 +1,19 @@
+# Local secrets and n8n state
+.env
+.env.*
+!.env.example
+.n8n/
+credentials*.json
+*client*secret*.json
+*.sqlite
+*.sqlite-*
+
+# Local exports and execution evidence must be reviewed before publication
+private/
+evidence-private/
+
+# Dependencies and editor files
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
