@@ -6,7 +6,7 @@ An n8n portfolio prototype that classifies incoming email, prepares reply drafts
 
 **Stack:** n8n, Google Gemini, Gmail, Google Sheets.
 
-**Status:** Shareable 25-node workflow exported from the existing n8n prototype, with account references replaced by setup placeholders. Import it inactive and connect your own credentials. Local regression checks pass; a clean-import run against Gmail, Gemini, and Sheets remains to be performed.
+**Status:** Shareable 25-node workflow exported from the existing n8n prototype, with account references replaced by setup placeholders. It imported successfully into an isolated n8n 2.47.3 instance and remained inactive. Connect your own credentials to run it. Local regression checks pass; a clean-import run against Gmail, Gemini, and Sheets remains to be performed.
 
 ## Demo and case study
 

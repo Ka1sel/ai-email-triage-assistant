@@ -8,6 +8,10 @@ Run `npm test` with Node.js 22 or later. Ten tests evaluate the actual exported 
 
 These checks passed locally during packaging. They use synthetic inputs and a minimal n8n input-context stub. They do not measure model classification quality or verify the behavior of Gmail and Google Sheets nodes.
 
+## Import compatibility
+
+The sanitized JSON was successfully imported into a clean, isolated n8n 2.47.3 instance. The imported workflow remained inactive with no connected credentials. This confirms the import step; it does not establish successful execution of the Google-service nodes.
+
 ## Before running
 
 Use a dedicated inbox and spreadsheet. Connect your own credentials, confirm the mappings, and keep scheduled triggers inactive until the initial manual checks are complete. The fixture addresses use the reserved `example.com` domain and are illustrative; send test messages from accounts you control.
